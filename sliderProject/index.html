@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    
+    <style>
+        body{
+            background-color:grey;
+        }
+        .container{
+            margin:25px 0;
+            padding:0;
+            height:auto;
+            
+        }
+
+        .imageContainer{
+            display:block;
+            margin:0px auto;
+            padding:0px;
+            height:428px;
+            width:640px;
+            border:8px solid blue;
+        }
+        button{
+            text-decoration: none;
+            display: inline;
+            padding:8px 16px;
+            border-radius:50%;
+            border:none;
+        }
+        button:hover{
+            background-color:#ddd;
+            color:black;
+
+        }
+        .previous{
+            background-color:#3f38a7;
+            color:white;
+            float:left;
+            
+        
+        }
+        .next{
+            background-color:#3f38a7;
+            color:white;
+            float:right;
+        }
+        .round{
+            border-radius:50%;
+        }
+     
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="imageContainer">
+            <!-- <img src ="./images/car1.jpg"> -->
+
+
+            <button  class="btn next round"> &#8250;</button>
+            <button  class="btn previous round">&#8249;</button>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
