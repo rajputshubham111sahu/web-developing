@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Us</title>
+    <!-- <link rel="stylesheet" href="https://fonts.google.apis.com/css?family=Sofia"> -->
+    <!-- <link rel="stlesheet" href="" > -->
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:gray;
+        }
+        .container{
+            height:auto;
+            width:fit-content;
+            margin: 2em auto;
+            padding:1em;
+            display: block;
+            background-color:lightskyblue;
+            
+        }
+
+        .messageBox{
+            width:100%;
+        }
+        h4{
+            font:normal 1.8em Arial, sans-serif;
+            text-transform: capitalize;
+
+        }
+        #messageForm{
+            width:100%;
+        }
+        input#message{
+            display:block;
+            margin:0 auto;
+            width:90%;
+            height:2.5em;
+       
+            
+
+        }
+            #submitBtn{
+            display: block;
+            margin: 1em auto;
+            height:3em;
+            width:6em;
+            font-size:1.2em;
+            background-color:teal;
+            color:rgb(231, 220, 121);    
+            border:2px solid aquamarine;
+            border-radius: 10px; 
+        }
+        button#submitBtn:hover{
+            color:#fff;
+            background-color:darkslategray;
+        }
+        div.alert{
+            margin-left:5px;
+            
+        }
+        h5.alertMsg{
+            display:none;
+        }
+         h4.messageContent{
+            font-size:1.6em; 
+            position: relative;
+        }
+        #show{
+            display:block;
+        }
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="messageBox">
+            <h4>A message you would like to pass</h4>
+            <form id="messageForm">
+                <input type="text" name="" id="message">
+                <input type="submit" id="submitBtn" > 
+            </form>
+        
+      
+            <h5 class="alertMsg">Please enter a value to pass</h5>
+            <h4 id="feedback">Last Message delivered!</h4>
+            <h4 class="messageContent">hello world</h4>
+
+         </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
