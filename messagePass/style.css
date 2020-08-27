@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:gray;
+}
+.container{
+    height:auto;
+    width:fit-content;
+    margin: 2em auto;
+    padding:1em;
+    display: block;
+    background-color:lightskyblue;
+    
+}
+
+.messageBox{
+    width:100%;
+}
+h4{
+    font:normal 1.8em Arial, sans-serif;
+    text-transform: capitalize;
+
+}
+#messageForm{
+    width:100%;
+}
+input#message{
+    display:block;
+    margin:0 auto;
+    width:90%;
+    height:2.5em;
+
+    
+
+}
+    #submitBtn{
+    display: block;
+    margin: 1em auto;
+    height:3em;
+    width:6em;
+    font-size:1.2em;
+    background-color:teal;
+    color:rgb(231, 220, 121);    
+    border:2px solid aquamarine;
+    border-radius: 10px; 
+}
+button#submitBtn:hover{
+    color:#fff;
+    background-color:darkslategray;
+}
+div.alert{
+    margin-left:5px;
+    
+}
+h5.alertMsg{
+    display:none;
+}
+ h4.messageContent{
+    font-size:1.6em; 
+    position: relative;
+}
+#show{
+    display:block;
+}
