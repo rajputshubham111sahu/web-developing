@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            width:100%;
+            height: 650px;
+            background-image: linear-gradient(45deg, rgb(173, 148, 148) 20%, rgb(87, 82, 82) 70%);
+           
+        }
+        .game-container{
+            display: block;
+            margin:2em auto 2em auto;
+            width:300px
+         }
+         .headLine{
+             color:rgb(161, 223, 228);
+             font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             margin-left:15px;
+
+         }
+         #startBtn{
+             
+             font: normal bold 32px cursive;
+             display: block;
+             margin: 0 auto;
+             border: 2px solid rgb(8, 56, 8);
+             border-radius: 15px;
+             color:rgb(238, 225, 225);
+             height:50px;
+             width: 200px;
+             background-image: linear-gradient( 45deg, green 40%, rgb(34, 87, 25) 70%);
+             
+         }
+         .result{
+             font:normal bold 18px cursive;
+             color:turquoise;
+         }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="headLine">Lets play!</h1>
+        <div class="game-container">
+
+        <button id="startBtn" type="submit" >Start Game </button>
+ 
+    </div>
+   
+
+   
+
+        <div class="result">
+            <p id="petrolPumps"></p>
+            <p class="results"></p>
+        </div>
+    </div>
+<footer class="container" style="height:auto;"> &copy All rights reseved</footer>
+<script src="script.js"> </script>
+</body>
+
+</html>
+
+
+
